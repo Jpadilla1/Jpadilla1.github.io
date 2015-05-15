@@ -1,0 +1,37 @@
+body {
+    margin: 60px 0;
+}
+.hero {
+    background-image: none;
+    background-color: white;
+    padding-bottom: 1em;
+    .hero-inner {
+        color: $dark-gray;
+        .hero-copy {
+            p {
+                margin: 0 auto 1em auto;
+            }
+        }
+    }
+    .hero-logo img {
+        height: 12em;
+        margin-bottom: 1em;
+        border-radius: 100px;
+    }
+    .hero-copy {
+        margin-bottom: 1em;
+    }
+}
+.contact {
+    img {
+        height: 3em;
+    }
+}
+.icon {
+  fill: black;
+}
+.email-me {
+    @include button(flat, $action-color);
+    padding: 0.8em 1em;
+    letter-spacing: 0.25em;
+}
